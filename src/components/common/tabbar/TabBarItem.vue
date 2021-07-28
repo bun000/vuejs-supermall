@@ -49,12 +49,4 @@
     height: 49px;
     font-size: 14px;
   }
-
-  .tab-bar-item img {
-    width: 24px;
-    height: 24px;
-    margin-top: 3px;
-    vertical-align: middle;
-    margin-bottom: 2px;
-  }
 </style>
