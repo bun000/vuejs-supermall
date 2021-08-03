@@ -1,5 +1,5 @@
 <template>
-  <tab-bar>
+  <tab-bar class="tab-bar">
     <tab-bar-item path="/home" activeColor="pink">
       <template v-slot:item-icon>
         <img src="~assets/img/tabbar/home.svg" alt="" />
@@ -36,7 +36,7 @@
         <div>购物车</div>
       </template>
     </tab-bar-item>
-    <tab-bar-item path="/profile" activeColor="deepPink">
+    <tab-bar-item path="/profile" activeColor="pink">
       <template v-slot:item-icon>
         <img src="~assets/img/tabbar/profile.svg" alt="" />
       </template>
@@ -67,6 +67,10 @@ export default {
 </script>
 
 <style scoped>
+.tab-bar{
+  z-index: 1;
+}
+
 img {
   width: 24px;
   height: 24px;
